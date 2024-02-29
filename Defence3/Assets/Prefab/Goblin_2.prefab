@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6449128586221716866
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100058, guid: ef7ff960f0bc4f94a993f80d1e51ba97, type: 3}
+      propertyPath: m_Name
+      value: Goblin_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400058, guid: ef7ff960f0bc4f94a993f80d1e51ba97, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.1254354
+      objectReference: {fileID: 0}
+    - target: {fileID: 400058, guid: ef7ff960f0bc4f94a993f80d1e51ba97, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400058, guid: ef7ff960f0bc4f94a993f80d1e51ba97, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 400058, guid: ef7ff960f0bc4f94a993f80d1e51ba97, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400058, guid: ef7ff960f0bc4f94a993f80d1e51ba97, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400058, guid: ef7ff960f0bc4f94a993f80d1e51ba97, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400058, guid: ef7ff960f0bc4f94a993f80d1e51ba97, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400058, guid: ef7ff960f0bc4f94a993f80d1e51ba97, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400058, guid: ef7ff960f0bc4f94a993f80d1e51ba97, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400058, guid: ef7ff960f0bc4f94a993f80d1e51ba97, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: ef7ff960f0bc4f94a993f80d1e51ba97, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 41b237aee868de1458848ecedd5a7811, type: 2}
+    - target: {fileID: 13700000, guid: ef7ff960f0bc4f94a993f80d1e51ba97, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0b9cb8a70672bb8409e5be16d1a20271, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100058, guid: ef7ff960f0bc4f94a993f80d1e51ba97, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -7460973817089788864}
+  m_SourcePrefab: {fileID: 100100000, guid: ef7ff960f0bc4f94a993f80d1e51ba97, type: 3}
+--- !u!1 &6449128586221814616 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100058, guid: ef7ff960f0bc4f94a993f80d1e51ba97, type: 3}
+  m_PrefabInstance: {fileID: 6449128586221716866}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-7460973817089788864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6449128586221814616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50f8fe7e14d103141b0ccb336904e31b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WayPoints: []
+  MaxHp: 5
+  MoveSpeed: 10
+  StealCoin: 100
+  Damage: 1
